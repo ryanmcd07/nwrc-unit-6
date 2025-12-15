@@ -1,0 +1,69 @@
+/*Navbar custom layout and font*/
+.navbar-custom {
+background-color: lightseagreen;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.card{
+    border: none;
+}
+
+.container .my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    background-color: mediumaquamarine;
+    color: white;
+}
+
+.card-title {
+font-size: 1.5rem;
+font-weight: bold;
+font-family: 'Comic Sans MS';
+}
+
+.card-text {
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.hero-image {
+    background-image: 
+    url(../images/Football\ boots\ image.jpg);
+
+    height: 25vh;
+    background-position: center;
+    background-image: no-repeat;
+    background-size: cover;
+
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.hero-text h1 {
+font-weight: bold;
+color: white;
+text-transform: uppercase;
+font-family: 'Comic Sans MS';
+
+}
+
+.hero-text p {
+font-weight: bold;
+color: white;
+font-family: 'Comic Sans MS';
+
+}
