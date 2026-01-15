@@ -1,0 +1,98 @@
+/*Navbar custom layout and font*/
+.navbar-custom {
+background-color: lightseagreen;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.card{
+    border: none;
+}
+
+.container .my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 225px;
+}
+
+.card-title {
+font-size: 1.5rem;
+font-weight: bold;
+font-family: 'Comic Sans MS';
+}
+
+.card-text {
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.hero-image {
+    background-image: 
+    url(../images/Football\ boots\ image.jpg);
+
+    height: 25vh;
+    background-position: center;
+    background-image: no-repeat;
+    background-size: cover;
+
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.hero-text h1 {
+font-weight: bold;
+color: white;
+text-transform: uppercase;
+font-family: 'Comic Sans MS';
+
+}
+
+.hero-text p {
+font-weight: bold;
+color: white;
+font-family: 'Comic Sans MS';
+
+}
+
+/* Footer styling similar to navbar */
+footer {
+background-color: turquoise; /* sky blue background */
+color: #fff; /* white text for contrast */
+font-family: 'Comic Sans MS'; /* playful font */
+text-align: center; /* centre content */
+padding: 1.5rem 1rem; /* comfortable spacing */
+}
+/* Paragraph and small text inside footer */
+footer p {
+margin: 0;
+font-size: 1rem;
+font-weight: bold;
+}
+footer small {
+display: block;
+margin-top: 0.5rem;
+font-size: 0.9rem;
+}
+/* Social icons specific spacing (optional) */
+.site-footer .social-links i {
+margin-left: 5px;
+}
+
+
+
